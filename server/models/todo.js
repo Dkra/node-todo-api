@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const TodoSchema = {
 	text: {
 		type: String,
-		require: true,
+		required: true,
 		minlength: 1,
 		trim: true
 	},
